@@ -11,15 +11,17 @@
 
        }
        table {
-            width:500px;
+            width:100%;
             border-collapse: collapse;
-            position: relative;
+            font-size: 14px;
        }
        caption{
-         width: 100%;
-         border-collapse: collapse;
-         font-size: 14px;
-
+         font-size: 1.2em;
+         font-weight: bold;
+         padding: 10px;
+         background-color: #d9d9d9;
+         border: 1px solid #000 ;
+         border-bottom: none; 
        }
        td, th {
         border: 1px solid #000 ;
@@ -32,9 +34,7 @@
         text-align: left;
         font-weight: bold;
      }
-     td.num{
-        text-align:right ;
-     }
+     
     
      tbody  td:nth-child(1) {text-align: left;}
      tbody  td:nth-child(2) {text-align: right;}
@@ -121,6 +121,43 @@
             <td>4.059.905</td>
             <td>'Texto pequeno'</td>
            </tr>
+            <tr>
+              <td>Piauí</td>
+              <td>3.281.480</td>
+              <td>'Texto subscrito'</td>
+            </tr>
+            <tr>
+              <td><blockquote>Rio de Janeiro</blockquote></td>
+              <td>16.054.542</td>
+              <td>'<blockquote>citação em bloco</blockquote>'</td>
+            </tr>
+            <tr>
+              <td><strong>Rio Grande do Sul</strong></td>
+              <td>10.882.965</td>
+              <td><strong>'Negrito'</strong></td>
+            </tr>
+            <tr>
+              <td>Rondônia</td>
+              <td>1.616.379</td>
+              <td><em>'Itálico'</em></td>
+            </tr>
+            <tr>
+              <td><mark>Roraima</mark></td>
+              <td>636.707</td>
+              <td><mark>'Texto destacado'</mark></td>
+            </tr>
+            <tr>
+              <td><abbr title="Tocantins">TO</abbr></td>
+              <td>1.607.363</td>
+              <td><abbr title="Abreviação">Abreviação</abbr></td>
+            </tr>
+            <tr>
+              <tfoot>
+              <td><strong>Total da população estimada</strong></td>
+              <td><strong>Soma total</strong></td>
+              <td>Realizar a soma das colunas</td>
+            </tfoot>
+            </tr>
      </tbody>
     </table>
 </body>
